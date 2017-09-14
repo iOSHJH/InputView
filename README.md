@@ -1,6 +1,7 @@
 # InputView
 最好用的输入框，没有之一
 在开发中UITextField和UITextview这两个组件用的是非常频繁的，而且还要限制输入框的字数，UITextview要设置placeholder等，每个控件都要实现代理方法写相应的逻辑代码。是不是很麻烦？
+
 很多新手是这样写的：
 ```
 // 限制字数
@@ -15,6 +16,7 @@
 }
 ```
 这样写会有问题，当输入中文或粘贴字符到文本框时问题就出来了。
+
 
 为此我重写了UITextField和UITextview，实现一句话设置限制字数和placeholder。代理用block代替，使用更加方便灵活。
 限制字数相关实现，完美解决刚提到的问题（UITextField和UITextview的实现思路一样）：
