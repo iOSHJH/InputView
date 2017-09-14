@@ -45,8 +45,9 @@ if (self.limitLength > 0) { // 限制长度
         }
     }
 ```
+
 效果图：
-![效果图](http://upload-images.jianshu.io/upload_images/3950574-96f4fc4e5debd3cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+!(http://upload-images.jianshu.io/upload_images/3950574-96f4fc4e5debd3cf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 使用：
 ```
