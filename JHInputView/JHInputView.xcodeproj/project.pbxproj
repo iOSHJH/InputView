@@ -13,8 +13,6 @@
 		7F56F2841F6A813000C87AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F56F2821F6A813000C87AC2 /* Main.storyboard */; };
 		7F56F2861F6A813000C87AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F56F2851F6A813000C87AC2 /* Assets.xcassets */; };
 		7F56F2891F6A813000C87AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F56F2871F6A813000C87AC2 /* LaunchScreen.storyboard */; };
-		7F56F2931F6A816500C87AC2 /* JHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F56F2921F6A816500C87AC2 /* JHTextView.m */; };
-		7F56F2961F6A81A400C87AC2 /* JHTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F56F2951F6A81A400C87AC2 /* JHTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +26,10 @@
 		7F56F2851F6A813000C87AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F56F2881F6A813000C87AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F56F28A1F6A813000C87AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F56F2911F6A816500C87AC2 /* JHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextView.h; sourceTree = "<group>"; };
-		7F56F2921F6A816500C87AC2 /* JHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextView.m; sourceTree = "<group>"; };
-		7F56F2941F6A81A400C87AC2 /* JHTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTextField.h; sourceTree = "<group>"; };
-		7F56F2951F6A81A400C87AC2 /* JHTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTextField.m; sourceTree = "<group>"; };
+		7FEF16DA1FA3368200D79870 /* JHTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JHTextView.m; path = InputView/JHTextView.m; sourceTree = "<group>"; };
+		7FEF16DB1FA3368200D79870 /* JHTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JHTextField.h; path = InputView/JHTextField.h; sourceTree = "<group>"; };
+		7FEF16DC1FA3368200D79870 /* JHTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JHTextField.m; path = InputView/JHTextField.m; sourceTree = "<group>"; };
+		7FEF16DD1FA3368200D79870 /* JHTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JHTextView.h; path = InputView/JHTextView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +87,10 @@
 		7F56F2901F6A813B00C87AC2 /* InputView */ = {
 			isa = PBXGroup;
 			children = (
-				7F56F2941F6A81A400C87AC2 /* JHTextField.h */,
-				7F56F2951F6A81A400C87AC2 /* JHTextField.m */,
-				7F56F2911F6A816500C87AC2 /* JHTextView.h */,
-				7F56F2921F6A816500C87AC2 /* JHTextView.m */,
+				7FEF16DB1FA3368200D79870 /* JHTextField.h */,
+				7FEF16DC1FA3368200D79870 /* JHTextField.m */,
+				7FEF16DD1FA3368200D79870 /* JHTextView.h */,
+				7FEF16DA1FA3368200D79870 /* JHTextView.m */,
 			);
 			name = InputView;
 			sourceTree = "<group>";
@@ -170,9 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F56F2811F6A813000C87AC2 /* ViewController.m in Sources */,
-				7F56F2931F6A816500C87AC2 /* JHTextView.m in Sources */,
 				7F56F27E1F6A813000C87AC2 /* AppDelegate.m in Sources */,
-				7F56F2961F6A81A400C87AC2 /* JHTextField.m in Sources */,
 				7F56F27B1F6A813000C87AC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +330,7 @@
 				7F56F28F1F6A813000C87AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

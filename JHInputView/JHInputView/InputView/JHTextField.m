@@ -32,6 +32,9 @@
     if (self.limitLength == 0) {
         return;
     }
+    if (self.textFieldTextEditingChangedBlock) {
+        self.textFieldTextEditingChangedBlock(sender);
+    }
     UITextField *textField = (UITextField *)sender;
     NSString *toBeString = textField.text;
     
@@ -111,3 +114,4 @@
 
 
 @end
+

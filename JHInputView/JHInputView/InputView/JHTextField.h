@@ -17,6 +17,8 @@
 
 #pragma mark - UITextFieldDelegate block
 
+/** 文本发生改变*/
+@property (nonatomic, copy) void (^textFieldTextEditingChangedBlock)(UITextField *textField);
 @property (nonatomic, copy) BOOL (^textFieldShouldBeginEditingBlock)(UITextField *textField);
 @property (nonatomic, copy) void (^textFieldDidBeginEditingBlock)(UITextField *textField);
 @property (nonatomic, copy) BOOL (^textFieldShouldEndEditingBlock)(UITextField *textField);
@@ -25,3 +27,4 @@
 @property (nonatomic, copy) BOOL (^textFieldShouldChangeCharactersInRangeReplacementStringBlock)(UITextField *textField, NSRange range, NSString *string);
 
 @end
+
