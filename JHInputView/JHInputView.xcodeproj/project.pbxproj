@@ -13,6 +13,8 @@
 		7F56F2841F6A813000C87AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F56F2821F6A813000C87AC2 /* Main.storyboard */; };
 		7F56F2861F6A813000C87AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F56F2851F6A813000C87AC2 /* Assets.xcassets */; };
 		7F56F2891F6A813000C87AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F56F2871F6A813000C87AC2 /* LaunchScreen.storyboard */; };
+		7FEF16DE1FA3371D00D79870 /* JHTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF16DC1FA3368200D79870 /* JHTextField.m */; };
+		7FEF16DF1FA3372200D79870 /* JHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF16DA1FA3368200D79870 /* JHTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -170,6 +172,8 @@
 				7F56F2811F6A813000C87AC2 /* ViewController.m in Sources */,
 				7F56F27E1F6A813000C87AC2 /* AppDelegate.m in Sources */,
 				7F56F27B1F6A813000C87AC2 /* main.m in Sources */,
+				7FEF16DE1FA3371D00D79870 /* JHTextField.m in Sources */,
+				7FEF16DF1FA3372200D79870 /* JHTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
