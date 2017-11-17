@@ -10,8 +10,6 @@
 
 @interface JHTextView()<UITextViewDelegate>
 
-@property (nonatomic, strong) UILabel *placeholderLabel;
-
 @end
 
 @implementation JHTextView

@@ -14,6 +14,8 @@
 
 @property (nonatomic, assign) NSInteger limitLength;
 
+@property (nonatomic, strong) UILabel *placeholderLabel;
+
 @property (nonatomic, copy) NSString *placeholder;
 
 @property (nonatomic, strong) UILabel *textNumLabel;

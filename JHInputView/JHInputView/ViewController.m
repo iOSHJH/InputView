@@ -12,6 +12,8 @@
 
 @interface ViewController ()<UITextViewDelegate>
 
+@property (nonatomic, strong) JHTextField *textField;
+
 @property (nonatomic, strong) JHTextView *textView;
 
 @end
@@ -27,21 +29,25 @@
     textField.layer.borderWidth = 1;
     textField.layer.borderColor = [UIColor lightGrayColor].CGColor;
     [self.view addSubview:textField];
+    self.textField = textField;
     
-//    JHTextView *textView = [[JHTextView alloc] initWithFrame:CGRectMake(50, 120, 300, 200)];
-//    textView.limitLength = 10;
-//    textView.placeholder = @"请输入~";
-//    textView.layer.borderWidth = 1;
-//    textView.layer.borderColor = [UIColor lightGrayColor].CGColor;
-//    [self.view addSubview:textView];
-//    self.textView = textView;
+    JHTextView *textView = [[JHTextView alloc] initWithFrame:CGRectMake(50, 120, 300, 200)];
+    textView.limitLength = 10;
+    textView.placeholder = @"请输入~";
+    textView.layer.borderWidth = 1;
+    textView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    [self.view addSubview:textView];
+    self.textView = textView;
     
-    UITextView *tv = [[UITextView alloc] initWithFrame:CGRectMake(50, 120, 300, 200)];
-    tv.backgroundColor = [UIColor brownColor];
-    tv.delegate = self;
-    [self.view addSubview:tv];
+//    UITextView *tv = [[UITextView alloc] initWithFrame:CGRectMake(50, 120, 300, 200)];
+//    tv.backgroundColor = [UIColor brownColor];
+//    tv.delegate = self;
+//    [self.view addSubview:tv];
     
-    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
     
 }
 
